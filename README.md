@@ -1,4 +1,4 @@
-# About
+# Laravel Pulse - Log Files
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/denniseilander/pulse-log-files.svg?style=flat-square)](https://packagist.org/packages/denniseilander/pulse-log-files)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/denniseilander/pulse-log-files/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/denniseilander/pulse-log-files/actions?query=workflow%3Arun-tests+branch%3Amain)
