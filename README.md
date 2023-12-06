@@ -18,6 +18,31 @@ You can install the package via composer:
 composer require denniseilander/pulse-log-files
 ```
 
+## Register the recorder
+
+To let Laravel Pulse check the available log files, you need to register the recorder in the `config/pulse.php` file.
+
+```php
+return [
+    ...
+    
+    'recorders' => [
+        \Denniseilander\LogFiles\Recorders\LogFiles::class => [],
+    ],
+];
+```
+
+### Change the interval (optional)
+By default, the recorder will be **checked once every 5 minutes**.  
+You can change this by adding the `run_every_seconds` key to the array.
+
+```php
+'recorders' => [
+    \Denniseilander\LogFiles\Recorders\LogFiles::class => [
+        'run_every_seconds' => 10 * 60, // 10 minutes
+    ],
+],
+```
 Optionally, you can publish the views using
 
 ```bash
@@ -26,8 +51,9 @@ php artisan vendor:publish --tag="pulse-log-files-views"
 
 ## Usage
 
+You can use the component in your views like this:
 ```html
-<livewire:pulse.log-files />
+<livewire:pulse.log-files cols="4" />
 ```
 
 ## Testing
