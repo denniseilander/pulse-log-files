@@ -5,7 +5,10 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/denniseilander/pulse-log-files/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/denniseilander/pulse-log-files/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/denniseilander/pulse-log-files.svg?style=flat-square)](https://packagist.org/packages/denniseilander/pulse-log-files)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+A lightweight Laravel Pulse package for effortlessly viewing available log files in your current project.
+
+<img width="1280" alt="pulse-log-files" src="https://github.com/denniseilander/pulse-log-files/assets/3907144/f39b0004-1338-4234-9bf0-c0ec95abcb64">
+
 
 ## Installation
 
